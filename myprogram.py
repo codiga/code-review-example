@@ -31,4 +31,5 @@ def average_age(persons: Optional[list[Person]]) -> Optional[int]:
 p1 = Person("John", "Doe", 51)
 p2 = Person("Luke", "Skywalker", 21)
 list_of_persons = [p1, p2]
+print("Average age")
 print(average_age(list_of_persons))
